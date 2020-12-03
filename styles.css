@@ -1,0 +1,69 @@
+body {
+	background-image: url("https://media.giphy.com/media/jpbnoe3UIa8TU8LM13/giphy.gif");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#contenedor {
+	width: 900px;
+	height: 100%;
+	max-width: 900px;
+	background-color: whitesmoke;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#botones {
+	background-color: tomato;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#botonPerros {
+	align-items: center;
+	background-color: indigo;
+	width: 410px;
+	color: ivory;
+	margin: 20px;
+	font-size: 10vh;
+}
+
+#botonGatos {
+	align-items: center;
+	background-color: indigo;
+	width: 410px;
+	color: ivory;
+	margin: 20px;
+	font-size: 10vh;
+}
+#imagenes {
+	max-height: 100%;
+}
+#resultadosPerro {
+	width: 30%;
+	max-width: 50%;
+	display: inline list-item;
+	list-style: none;
+}
+#resultadosGato {
+	width: 30%;
+	max-width: 50%;
+	display: inline list-item;
+	list-style: none;
+}
+#resultadosPerro img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	max-height: 300px;
+}
+#resultadosGato img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+	max-height: 300px;
+}

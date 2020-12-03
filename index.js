@@ -16,7 +16,7 @@ function llamarPerros() {
 }
 
 function llamarGatos() {
-    fetch('http://aws.random.cat/meow')
+    fetch('https://aws.random.cat/meow')
         .then(res => res.json())
         .then(data => {
             resGato.innerHTML = `<img src="${data.file}"/>`;

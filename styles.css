@@ -4,6 +4,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	font-family: "Nerko One", cursive;
 }
 img {
 	margin: 0;
@@ -30,26 +31,30 @@ img {
 #botonPerros {
 	align-items: center;
 	width: 410px;
-	color: ivory;
+	color: rgb(252, 252, 2);
 	margin: 20px;
 	font-size: 10vh;
 	background-image: url("https://media.giphy.com/media/1kkxWqT5nvLXupUTwK/giphy.gif");
+	font-family: "Piedra", cursive;
 }
 
 #botonPerros:hover {
 	background-image: url("https://media.giphy.com/media/RQSuZfuylVNAY/giphy.gif");
+	color: whitesmoke;
 }
 
 #botonGatos {
 	align-items: center;
 	width: 410px;
-	color: ivory;
+	color: rgb(250, 150, 1);
 	margin: 20px;
 	font-size: 10vh;
 	background-image: url("https://media.giphy.com/media/CqVNwrLt9KEDK/giphy.gif");
+	font-family: "Piedra", cursive;
 }
 #botonGatos:hover {
 	background-image: url("https://media.giphy.com/media/MDJ9IbxxvDUQM/giphy.gif");
+	color: whitesmoke;
 }
 #imagenes {
 	max-height: 100%;
